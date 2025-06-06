@@ -1,0 +1,8 @@
+.mensagem {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.mensagem.mostrar {
+    opacity: 1;
+}
