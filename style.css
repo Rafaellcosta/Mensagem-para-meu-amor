@@ -9,6 +9,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 80%;
+    line-height: 1.8; /* Aumenta o espaço entre linhas */
 }
 .hidden {
     display: none !important; /* Garante que o botão desapareça completamente */
