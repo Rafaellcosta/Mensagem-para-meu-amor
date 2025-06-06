@@ -34,12 +34,16 @@
     </style>
 </head>
 <body>
-    <button id="botao" onclick="mostrarMensagem()">Clique aqui</button>
-    <div class="mensagem" id="mensagem">
-        Oi minha vida, vai ficar tudo bem tá bom?<br><br>
-        Estou aqui pro que der e vier, conta comigo sempre!<br><br>
-        Te amo ❤️
+    <button onclick="mostrarPopup()">Clique aqui</button>
+    <div id="popup" class="popup-container">
+        <div class="popup">
+            <p>Oi minha vida, vai ficar tudo bem tá bom?</p>
+            <p>Estou aqui pro que der e vier, conta comigo sempre!</p>
+            <p>Te amo ❤️</p>
+            <button onclick="fecharPopup()">Fechar</button>
+        </div>
     </div>
+
 
     <script>
         function mostrarMensagem() {
