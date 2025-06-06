@@ -1,5 +1,6 @@
 .mensagem {
-    font-size: 56x; /* Aumenta o tamanho da fonte */
+    font-size: 48x; /* Aumenta o tamanho da fonte */
+    font-family: 'Poppins', sans-serif;
     font-weight: bold; /* Deixa em negrito */
     text-align: center;
     opacity: 0;
