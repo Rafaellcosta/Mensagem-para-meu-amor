@@ -1,4 +1,4 @@
 function mostrarMensagem() {
     document.getElementById('mensagem').style.opacity = '1';
-    document.querySelector('button').classList.add('hidden');
+    document.querySelector('button').classList.add('hidden'); // Remove o botão corretamente
 }
