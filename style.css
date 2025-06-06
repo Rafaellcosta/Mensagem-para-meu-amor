@@ -1,18 +1,25 @@
-.mensagem {
-    font-size: 48x; /* Aumenta o tamanho da fonte */
+body {
     font-family: 'Poppins', sans-serif;
-    font-weight: bold; /* Deixa em negrito */
-    text-align: center;
-    opacity: 0;
-    transition: opacity 3s ease-in-out;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 80%;
-    line-height: 1.8; /* Aumenta o espaço entre linhas */
+    background-color: #fdf6f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
 
-    .popup-container {
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.popup-container {
     display: none;
     position: fixed;
     top: 0;
@@ -43,8 +50,4 @@
     border: none;
     border-radius: 8px;
     cursor: pointer;
-}
-
-.hidden {
-    display: none !important; /* Garante que o botão desapareça completamente */
 }
